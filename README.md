@@ -1,21 +1,28 @@
 # Homework:
 
-**Task:** Write a program that prompts the user to enter their exam score (out of 100) and outputs their letter grade based on the following grading scale:
 
-| Score Range | Letter Grade |
-| --- | --- |
-| 90-100 | A |
-| 80-89 | B |
-| 70-79 | C |
-| 60-69 | D |
-| 0-59 | F |
+### While Loop
 
-If the score entered is less than 0 or greater than 100, output an error message.
+Write a program that prompts the user to guess a secret number between 1 and 100. The program should generate a random secret number and then ask the user to guess it. If the user's guess is too high, the program should print "Too high!" and ask the user to guess again. If the user's guess is too low, the program should print "Too low!" and ask the user to guess again. If the user's guess is correct, the program should print "Congratulations!" and exit the loop.
 
-Use the following programming concepts to solve this task:
+Here's how the program should work: 
+1. Generate a random secret number between 1 and 100 using the **`Math.random()`** method.
+2. Prompt the user to enter a guess.
+3. Read the user's guess using a Scanner object.
+4. Use a while loop to check if the user's guess is correct, too high, or too low.
+5. If the user's guess is too high, print "Too high!" and ask the user to guess again.
+6. If the user's guess is too low, print "Too low!" and ask the user to guess again.
+7. If the user's guess is correct, print "Congratulations!" and exit the loop.
 
-- Relational operators
-- Logical operators
-- if-else statement
-- Switch statement
-- Ternary operator
+***Example:***
+```bash
+The secret No. is -->> 77
+Guess the number: 70
+Too low! Enter a new number: 75
+You are very close! Enter a new number: 95
+Too high! Enter a new number: 79
+You are very close! Enter a new number: 77
+Congratulations!
+
+Process finished with exit code 0
+```
