@@ -7,7 +7,7 @@ package Lsn_5;
 public class HomeWorkB {
     public static void main(String[] args) {
 
-        int originalArray[] = {3, 6, 9, 12, 15, 17, 77};
+        int originalArray[] = {3, 6, 9, 12, 15};
         int len = originalArray.length;
         int reversedArray[] = new int[len];
 
