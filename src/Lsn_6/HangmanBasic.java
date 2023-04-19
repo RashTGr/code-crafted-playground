@@ -17,7 +17,6 @@ public class HangmanBasic {
 
         // Set the 'hiddenWord' to an underscore char of the same length as the 'randomWord'
         char hiddenWord[] = new char[randomWord.length()];
-
         System.out.print("Guess the word: ");
         for (int i = 0; i < randomWord.length(); i++) {
             System.out.print("_ ");
@@ -26,8 +25,12 @@ public class HangmanBasic {
             hiddenWord[i] = randomWord.charAt(i);
         }
 
+
+        // To put a cap to the user attempts
         int attemptCount = 0;
-        boolean correctGuess[] = new boolean[hiddenWord.length];
+        // Check current state with previous state to avoid overwriting the previous results
+        boolean guessedChars[] = new boolean[hiddenWord.length];
+
         // User is asked to start guessing the letters of the hiddenWord
         do {
             System.out.print("\nType in a letter of your choice: ");
@@ -35,22 +38,35 @@ public class HangmanBasic {
             char castedInput = userInput.charAt(0);
 
             for (int i = 0; i < hiddenWord.length; i++) {
-                if (hiddenWord[i] == castedInput && correctGuess[i] == false) {
-                    correctGuess[i] = true;
+                if (hiddenWord[i] == castedInput && guessedChars[i] == false) {
+                    guessedChars[i] = true;
                     System.out.print(hiddenWord[i]);
                     attemptCount = 0;
-                } else if (correctGuess[i] == true) {
+                } else if (guessedChars[i]) {
                     System.out.print(hiddenWord[i]);
-                } else if () {
-                    
                 } else {
-                    System.out.print("_");
+                    System.out.print("_ ");
                 }
             }
-        } while (attemptCount < 5);
+            attemptCount++;
 
-
-
+            // To print message at the end
+            boolean allCorrect = true;
+            for (int i = 0; i < guessedChars.length; i++) {
+                if (!guessedChars[i]){
+                    allCorrect = false;
+                    break;
+                }
+            }
+            if (allCorrect){
+                char message[] = new char[hiddenWord.length];
+                for (int i = 0; i < hiddenWord.length; i++) {
+                    message[i] = hiddenWord[i];
+                }
+                System.out.println("\nCongrats! The hidden word is correctly predicted!");
+                break;
+            }
+        } while (attemptCount <= 5);
 
         // Printing the 'hiddenWord' to console in array format
         System.out.print("HiddenWord array = [");
@@ -58,10 +74,6 @@ public class HangmanBasic {
             String arrFormat = (i != randomWord.length() - 1) ? ", " : "] \n";
             System.out.print(hiddenWord[i] + arrFormat);
         }
-
-
-
-
 
     }
 }
