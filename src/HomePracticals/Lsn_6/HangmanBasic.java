@@ -1,4 +1,4 @@
-package Lsn_6;
+package HomePracticals.Lsn_6;
 
 import java.util.Scanner;
 

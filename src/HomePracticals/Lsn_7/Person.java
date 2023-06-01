@@ -1,4 +1,4 @@
-package Lsn_7;
+package HomePracticals.Lsn_7;
 
 public class Person {
 

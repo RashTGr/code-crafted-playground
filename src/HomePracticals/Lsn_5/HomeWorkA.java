@@ -1,4 +1,4 @@
-package Lsn_5;
+package HomePracticals.Lsn_5;
 
 /**
  * The user is prompted to enter integers into an array, and the program

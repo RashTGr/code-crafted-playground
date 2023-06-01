@@ -1,4 +1,4 @@
-package Lsn_5;
+package HomePracticals.Lsn_5;
 
 /**
  * This program prints out the values in the array in reverse order.
