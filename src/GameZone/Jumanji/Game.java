@@ -2,7 +2,7 @@ package GameZone.Jumanji;
 
 import java.util.Scanner;
 
-public class Game {
+class Game {
     private String[] locations = {"Jungle", "Desert", "Jurgen's Lair", "Mandrill Bridge", "Castle"};
     private int currentLocationIndex;
     private int lives = 3;

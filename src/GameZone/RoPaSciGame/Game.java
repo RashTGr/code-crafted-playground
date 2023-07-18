@@ -1,6 +1,6 @@
 package GameZone.RoPaSciGame;
 
-public class Game {
+class Game {
     public void playRound(Player humanPlayer, Player computerPlayer){
         String humanChoice = humanPlayer.getChoice();
         String computerChoice = computerPlayer.getChoice();

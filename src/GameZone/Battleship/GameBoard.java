@@ -1,6 +1,6 @@
 package GameZone.Battleship;
 
-public class GameBoard {
+class GameBoard {
 
     private int gridSize = 7;
     private int row = gridSize;

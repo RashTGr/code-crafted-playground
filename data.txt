@@ -1,0 +1,11 @@
+1,London,A-First Class discounted,OPEN,HIGH
+2,Bali,C-Business Class,IN_PROGRESS,MEDIUM
+3,Maldives,B-Economy Class,OPEN,HIGH
+4,San Francisco,A-First Class,PENDING,LOW
+5,Sydney,C-Economy Class,CLOSED,LOW
+6,Baku,J-Business Class Premium,REJECTED,HIGH
+7,Istanbul,A-First Class,OPEN,LOW
+8,London,B-Economy Class,OPEN,MEDIUM
+9,Milan,C-Economy Class,CLOSED,LOW
+10,New York,J-Business Class Premium,PENDING,LOW
+11,Bali,A-Business Class,OPEN,MEDIUM
