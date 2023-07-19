@@ -1,5 +1,5 @@
 /**
- * This is a terminal-based ticket management system using Java,
+ * This is a terminal-based simple ticket management system using Java,
  * where users can manage and track tickets.
  */
 

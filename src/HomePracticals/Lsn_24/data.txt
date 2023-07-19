@@ -4,8 +4,12 @@
 4,San Francisco,A-First Class,PENDING,LOW
 5,Sydney,C-Economy Class,CLOSED,LOW
 6,Baku,J-Business Class Premium,REJECTED,HIGH
-7,Istanbul,A-First Class,OPEN,LOW
+7,Istanbul,A-First Class,PENDING,LOW
 8,London,B-Economy Class,OPEN,MEDIUM
 9,Milan,C-Economy Class,CLOSED,LOW
 10,New York,J-Business Class Premium,PENDING,LOW
 11,Bali,A-Business Class,OPEN,MEDIUM
+12,Singapore,B-Economy Class,IN_PROGRESS,LOW
+13,Bangkok,B-Economy class,REJECTED,MEDIUM
+14,Kuala Lumpur,B-Business class,PENDING,HIGH
+15,Tokyo,A-Premium class,CLOSED,MEDIUM

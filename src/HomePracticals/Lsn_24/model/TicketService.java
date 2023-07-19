@@ -48,7 +48,7 @@ public class TicketService {
         if (!priorityChoice.equalsIgnoreCase("LOW")
                 && !priorityChoice.equalsIgnoreCase("MEDIUM")
                 && !priorityChoice.equalsIgnoreCase("HIGH")) {
-            return definePriority(++attempt);
+            return definePriority(++attempt); // recursive call of method itself for invalid inputs
         }
         return Priority.valueOf(priorityChoice.toUpperCase());
     }

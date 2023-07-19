@@ -5,15 +5,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileHandler {
-    private final String TICKET_FILE = "data.txt";
+    private final String TICKET_FILE = "src/HomePracticals/Lsn_24/data.txt";
 
     // Read existing data from file and load
     public void loadTickets(TicketService service){
         try (BufferedReader reader = new BufferedReader(new FileReader(TICKET_FILE))) {
-            String line;
+            String lineOfDataFile;
             List<Ticket> tempLoadedData = new ArrayList<>(); // Temporary list to convert string data to array list
-            while ((line = reader.readLine()) != null) {
-                Ticket ticket = Ticket.fromDataString(line);
+            while ((lineOfDataFile = reader.readLine()) != null) {
+                Ticket ticket = Ticket.fromDataString(lineOfDataFile);
                 tempLoadedData.add(ticket);
                 //Update ID counter
                 Ticket.objCounter = Math.max(Ticket.objCounter, ticket.getId());
