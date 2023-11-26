@@ -18,7 +18,7 @@ class ProceduralVersion {
             int random = (int) (Math.random() * CHOICES.length);
             String computerMove = CHOICES[random];
 
-            System.out.print("Your move: ");
+            System.out.print("Your move (R/P/S): ");
             char userInput = scan.next().toUpperCase().charAt(0);
 
             String humandPlayerMove;
