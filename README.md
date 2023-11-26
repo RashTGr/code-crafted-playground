@@ -1,6 +1,6 @@
-<h1 style="text-align: center">Java Game Collection</h1>
+<h1 style="text-align: center">Code-Crafted Games Collection</h1>
 
-Welcome to the Java Game Collection repository! This repository serves as a compilation of console-based Java game scenarios developed to practice coding skills learned during my learning journey.
+Welcome to the repository featuring a collection of Java games developed as console-based scenarios. This compilation serves as a showcase of coding skills practiced and refined in the early stages of my learning journey.
 
 Although these simple game projects are open to further advancements in utilising collections, generics, exception handling, threads, design patterns, and more advanced concepts, they serve as robust showcases. They exemplify my grasp and practical application of Java programming principles across different learning stages.
 
@@ -107,7 +107,8 @@ To access detailed instructions for running each game, kindly navigate to the re
 
 
 
-<h2 style="color: indianred">Notes:</h2>
+
+### Notes:
 These console-based Java games were developed at various stages of my Java programming classes, showcasing the concepts learned during each phase.
 Their principal purpose is to demonstrate the foundational programming principles that are being covered in the Java SE module of the curriculum.
 
