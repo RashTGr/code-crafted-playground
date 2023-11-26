@@ -1,4 +1,4 @@
-<h1 style="text-align: center">Word Chain Game</h1>
+<h1 style="text-align: center">Word Chains Game</h1>
 
 
 **Description:** The Word Chain game is a console-based game where players need to enter words that start with the last letter of the previously entered word.

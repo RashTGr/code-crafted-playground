@@ -1,4 +1,4 @@
-<h1 style="text-align: center">Tic Tac Toe Game</h1>
+<h1 style="text-align: center">Tic-Tac-Toe Game</h1>
 
 **Description:** Tic Tac Toe is a classic console-based game where two players take turns marking spaces in a 3x3 grid to achieve a winning pattern.
 

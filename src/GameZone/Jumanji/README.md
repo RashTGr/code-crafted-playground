@@ -1,4 +1,4 @@
-# JUMANJI
+<h1 style="text-align: center"> Jumanji Game</h1>
 This is a text-based adventure game written in Java. To advance through the levels, players must navigate through various locations and make character choices.
 
 ## Overview
