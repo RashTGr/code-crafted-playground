@@ -9,7 +9,7 @@
 - Compares choices to determine the winner of each round
 - Tracks and displays the scores for both the human player and computer
 - Provides a procedural version of the game in a single class
-- Separates game logic for playing or exiting into the Main class
+- Separates game logic into different classes
 
 **Instructions:**
 1. **Running the Game:**
@@ -40,7 +40,7 @@
 - Implements the game's logic without class separation.
 - Offers "Continue or Exit: " prompt after each move.
 - Human player selects Rock.
-- Computer selects Scissors.
+- Computer selects Paper.
 - Computer won this round. Overall score is 4.
 - Prompts "Continue or Exit:" after each move.
 - ...
