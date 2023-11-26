@@ -2,7 +2,7 @@ package GameZone.Battleship;
 
 import java.util.Scanner;
 
-public class PlayerFloat {
+class PlayerFloat {
     EnemyBoats enemy = new EnemyBoats();
     GameBoard board = new GameBoard();
     Scanner scan = new Scanner(System.in);
@@ -89,6 +89,3 @@ public class PlayerFloat {
         }
     }
 }
-
-
-

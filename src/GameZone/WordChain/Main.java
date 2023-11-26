@@ -7,5 +7,4 @@ class Main {
         wordGame.initialize();
         wordGame.play();
     }
-
 }

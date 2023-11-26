@@ -2,7 +2,7 @@ package GameZone.Battleship;
 
 import java.util.Random;
 
-public class EnemyBoats {
+class EnemyBoats {
 
     GameBoard board = new GameBoard();
     Random random = new Random();

@@ -2,7 +2,7 @@ package GameZone.RoPaSciGame;
 
 import java.util.Scanner;
 
-public class ProceduralVersion {
+class ProceduralVersion {
     private static final String[] CHOICES = {"ROCK", "PAPER", "SCiSSOR"};
 
     public static void main(String[] args) {

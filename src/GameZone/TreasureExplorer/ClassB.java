@@ -2,7 +2,7 @@ package GameZone.TreasureExplorer;
 
 import java.util.Random;
 
-public class ClassB {
+class ClassB {
 
     private int treasure;
 

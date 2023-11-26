@@ -1,6 +1,6 @@
 package GameZone.Jumanji;
 
-public class Character {
+class Character {
     private String name;
     private String correctLocation;
 

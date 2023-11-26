@@ -2,7 +2,7 @@ package GameZone.Jumanji;
 
 import java.util.Scanner;
 
-public class ProceduralVersion {
+class ProceduralVersion {
     public static void main(String[] args) {
 
 
